@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    /* background-color: #333; */
 }
 
 .siteHeader {
@@ -54,8 +55,16 @@ body {
 .siteHeader_itemChildren ul {
     list-style: none;
     padding: 0 1rem;
-    background-color: #ccc3c3;
+    /* background-color: #ccc3c3; */
+    /* border-radius: 16px; */
 }
-.siteHeader__link:hover .siteHeader_itemChildren {
+.siteHeader_itemChildren ul li {
+    list-style: none;
+    padding: 0 1rem;
+    background-color: red;
+    border-radius: 16px;
+}
+
+.siteHeader__item:hover > ul {
     visibility: visible;
 }
